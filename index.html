@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  
+  <title>冬雪开始飘</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="Love Record">
+<meta property="og:type" content="website">
+<meta property="og:title" content="冬雪开始飘">
+<meta property="og:url" content="http://example.com/index.html">
+<meta property="og:site_name" content="冬雪开始飘">
+<meta property="og:description" content="Love Record">
+<meta property="og:locale" content="en_US">
+<meta property="article:author" content="John Doe">
+<meta name="twitter:card" content="summary">
+  
+    <link rel="alternate" href="/atom.xml" title="冬雪开始飘" type="application/atom+xml">
+  
+  
+    <link rel="shortcut icon" href="/favicon.png">
+  
+  
+    
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/typeface-source-code-pro@0.0.71/index.min.css">
+
+  
+  
+<link rel="stylesheet" href="/css/style.css">
+
+  
+    
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.min.css">
+
+  
+<meta name="generator" content="Hexo 6.2.0"></head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">冬雪开始飘</a>
+      </h1>
+      
+        <h2 id="subtitle-wrap">
+          <a href="/" id="subtitle">lc</a>
+        </h2>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://example.com"></form>
+      </div>
+    </div>
+  </div>
+</header>
+
+      <div class="outer">
+        <section id="main">
+  
+    <article id="post-mood-signature" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2022/08/22/mood-signature/" class="article-date">
+  <time class="dt-published" datetime="2022-08-22T13:38:42.000Z" itemprop="datePublished">2022-08-22</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="p-name article-title" href="/2022/08/22/mood-signature/">mood signature</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <h2 id="什么是Shell脚本"><a href="#什么是Shell脚本" class="headerlink" title="什么是Shell脚本"></a>什么是Shell脚本</h2><p>示例 demo.sh：</p>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#!/usr/bin/env sh  </span></span><br><span class="line"><span class="comment"># 指定解释器  </span></span><br><span class="line"><span class="comment"># 切换到~目录，即/home/$用户名/  </span></span><br><span class="line"><span class="built_in">cd</span> ~  </span><br><span class="line"><span class="comment"># 创建demo文件夹，进入demo文件夹  </span></span><br><span class="line"><span class="built_in">mkdir</span> demo  </span><br><span class="line"><span class="built_in">cd</span> demo  </span><br><span class="line"><span class="comment">#执行10次循环  </span></span><br><span class="line"><span class="keyword">for</span>((i=0; i&lt;10; i++));<span class="keyword">do</span>  </span><br><span class="line"><span class="comment">#  创建demo_0...9.txt文件  </span></span><br><span class="line">  <span class="built_in">touch</span> demo_<span class="variable">$i</span>.txt  </span><br><span class="line"><span class="comment"># 结束循环  </span></span><br><span class="line"><span class="keyword">done</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="shell和shell脚本"><a href="#shell和shell脚本" class="headerlink" title="shell和shell脚本"></a>shell和shell脚本</h3><p>shell是指一种应用程序，这个应用程序提供了一个界面，用户通过这个界面访问操作系统内核的服务。Ken Thompson的sh是第一种Unix Shell，Windows Explorer是一个典型的图形界面Shell。</p>
+<p>shell脚本（shell script），是一种为shell编写的脚本程序。业界所说的shell通常都是指shell脚本，shell和shell script是两个不同的概念。由于习惯的原因，简洁起见，本文出现的“shell编程”都是指shell脚本编程，不是指开发shell自身（如Windows Explorer扩展开发）。</p>
+<p>shell脚本使用shell解释器执行，linux提供一个shell解释器&#x2F;bin&#x2F;sh，部分操作系统提供&#x2F;bin&#x2F;bash，也是一个shell解释器，在CentOS中，&#x2F;bin&#x2F;sh是一个指向&#x2F;bin&#x2F;bash的符号链接。</p>
+<h3 id="编写shell脚本"><a href="#编写shell脚本" class="headerlink" title="编写shell脚本"></a>编写shell脚本</h3><ul>
+<li>指定解释器<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#!/bin/sh</span></span><br><span class="line">...</span><br></pre></td></tr></table></figure></li>
+<li>运行</li>
+</ul>
+<ol>
+<li>作为可执行程序运行</li>
+<li>作为解释器参数<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">chmod</span> +x test.sh</span><br><span class="line">./test.sh</span><br><span class="line"></span><br><span class="line">/bin/sh test.sh</span><br></pre></td></tr></table></figure></li>
+</ol>
+<h3 id="sh的语法"><a href="#sh的语法" class="headerlink" title="sh的语法"></a>sh的语法</h3><h4 id="1-变量"><a href="#1-变量" class="headerlink" title="1. 变量"></a>1. 变量</h4><pre><code>1. 变量的定义
+2. 变量的使用
+</code></pre>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 变量名和等号之间不能有空格</span></span><br><span class="line">var=<span class="string">&quot;lc&quot;</span></span><br><span class="line"><span class="comment"># 在变量名签名加$符号，在变量名外面加&#123;&#125;可以帮助解释器识别变量的边界</span></span><br><span class="line"><span class="built_in">echo</span> <span class="variable">$&#123;var&#125;</span></span><br></pre></td></tr></table></figure>
+<h4 id="2-字符串"><a href="#2-字符串" class="headerlink" title="2. 字符串"></a>2. 字符串</h4><p>字符串是shell编程中最常用最有用的数据类型，字符串可以用单引号，也可以用双引号，也可以不用引号。</p>
+<ul>
+<li>单引号里的任何字符都会原样输出，单引号字符串中的变量是无效的</li>
+<li>单引号字串中不能出现单引号（对单引号使用转义符后也不行）</li>
+<li>双引号里可以有变量</li>
+<li>双引号里可以出现转义字符</li>
+</ul>
+<h5 id="拼接字符串"><a href="#拼接字符串" class="headerlink" title="拼接字符串"></a>拼接字符串</h5><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">your_name=<span class="string">&quot;qinjx&quot;</span></span><br><span class="line">greeting=<span class="string">&quot;hello, &quot;</span><span class="variable">$your_name</span><span class="string">&quot; !&quot;</span></span><br><span class="line">greeting_1=<span class="string">&quot;hello, <span class="variable">$&#123;your_name&#125;</span> !&quot;</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">echo</span> <span class="variable">$greeting</span> <span class="variable">$greeting_1</span></span><br></pre></td></tr></table></figure>
+
+<h5 id="获取字符串长度："><a href="#获取字符串长度：" class="headerlink" title="获取字符串长度："></a>获取字符串长度：</h5><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">string=<span class="string">&quot;abcd&quot;</span></span><br><span class="line"><span class="built_in">echo</span> <span class="variable">$&#123;#string&#125;</span> <span class="comment">#输出：4</span></span><br></pre></td></tr></table></figure>
+
+<h5 id="提取子字符串"><a href="#提取子字符串" class="headerlink" title="提取子字符串"></a>提取子字符串</h5><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">string=<span class="string">&quot;alibaba is a great company&quot;</span></span><br><span class="line"><span class="built_in">echo</span> <span class="variable">$&#123;string:1:4&#125;</span> <span class="comment">#输出：liba</span></span><br></pre></td></tr></table></figure>
+
+<h5 id="查找子字符串"><a href="#查找子字符串" class="headerlink" title="查找子字符串"></a>查找子字符串</h5><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">string=<span class="string">&quot;alibaba is a great company&quot;</span></span><br><span class="line"><span class="built_in">echo</span> `<span class="built_in">expr</span> index <span class="string">&quot;<span class="variable">$string</span>&quot;</span> is`</span><br><span class="line"><span class="comment"># 输出：3，这个语句的意思是：找出字母i在这名话中的位置，要在linux下运行，mac</span></span><br></pre></td></tr></table></figure>
+
+<h5 id="if-else"><a href="#if-else" class="headerlink" title="if else"></a>if else</h5><h6 id="if"><a href="#if" class="headerlink" title="if"></a>if</h6><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">if</span> condition</span><br><span class="line"><span class="keyword">then</span></span><br><span class="line">command1</span><br><span class="line">command2</span><br><span class="line">...</span><br><span class="line">commandN</span><br><span class="line"><span class="keyword">fi</span></span><br></pre></td></tr></table></figure>
+
+<p>写成一行（适用于终端命令提示符）：</p>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">if</span> `ps -ef | grep ssh`; <span class="keyword">then</span> <span class="built_in">echo</span> hello; <span class="keyword">fi</span></span><br></pre></td></tr></table></figure>
+
+<p>末尾的fi就是if倒过来拼写，后面还会遇到类似的</p>
+<h6 id="if-else-1"><a href="#if-else-1" class="headerlink" title="if else"></a>if else</h6><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">if</span> condition</span><br><span class="line"><span class="keyword">then</span></span><br><span class="line">command1</span><br><span class="line">command2</span><br><span class="line">...</span><br><span class="line">commandN</span><br><span class="line"><span class="keyword">else</span></span><br><span class="line"><span class="built_in">command</span></span><br><span class="line"><span class="keyword">fi</span></span><br></pre></td></tr></table></figure>
+<h6 id="if-else-if-else"><a href="#if-else-if-else" class="headerlink" title="if else-if else"></a>if else-if else</h6><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">if</span> condition1</span><br><span class="line"><span class="keyword">then</span></span><br><span class="line">command1</span><br><span class="line"><span class="keyword">elif</span> condition2</span><br><span class="line">command2</span><br><span class="line"><span class="keyword">else</span></span><br><span class="line">commandN</span><br><span class="line"><span class="keyword">fi</span></span><br></pre></td></tr></table></figure>
+
+<h5 id="for-while"><a href="#for-while" class="headerlink" title="for while"></a>for while</h5><h6 id="for"><a href="#for" class="headerlink" title="for"></a>for</h6><p>在开篇的示例里演示过了：</p>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">for</span> var <span class="keyword">in</span> item1 item2 ... itemN</span><br><span class="line"><span class="keyword">do</span></span><br><span class="line">command1</span><br><span class="line">command2</span><br><span class="line">...</span><br><span class="line">commandN</span><br><span class="line"><span class="keyword">done</span></span><br></pre></td></tr></table></figure>
+<p>写成一行：</p>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">for</span> var <span class="keyword">in</span> item1 item2 ... itemN; <span class="keyword">do</span> command1; command2… <span class="keyword">done</span>;</span><br></pre></td></tr></table></figure>
+
+<h6 id="C风格的for"><a href="#C风格的for" class="headerlink" title="C风格的for"></a>C风格的for</h6><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">for</span> (( EXP1; EXP2; EXP3 ))</span><br><span class="line"><span class="keyword">do</span></span><br><span class="line">command1</span><br><span class="line">command2</span><br><span class="line">command3</span><br><span class="line"><span class="keyword">done</span></span><br></pre></td></tr></table></figure>
+<h6 id="while"><a href="#while" class="headerlink" title="while"></a>while</h6><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">while</span> condition</span><br><span class="line"><span class="keyword">do</span></span><br><span class="line"><span class="built_in">command</span></span><br><span class="line"><span class="keyword">done</span></span><br></pre></td></tr></table></figure>
+<h6 id="无限循环"><a href="#无限循环" class="headerlink" title="无限循环"></a>无限循环</h6><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">while</span> :</span><br><span class="line"><span class="keyword">do</span></span><br><span class="line"><span class="built_in">command</span></span><br><span class="line"><span class="keyword">done</span></span><br></pre></td></tr></table></figure>
+<p>或者</p>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">while</span> <span class="literal">true</span></span><br><span class="line"><span class="keyword">do</span></span><br><span class="line"><span class="built_in">command</span></span><br><span class="line"><span class="keyword">done</span></span><br></pre></td></tr></table></figure>
+<p>或者</p>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">for</span> (( ; ; ))</span><br></pre></td></tr></table></figure>
+<h6 id="until"><a href="#until" class="headerlink" title="until"></a>until</h6><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">until condition</span><br><span class="line"><span class="keyword">do</span></span><br><span class="line"><span class="built_in">command</span></span><br><span class="line"><span class="keyword">done</span></span><br></pre></td></tr></table></figure>
+
+<h6 id="case"><a href="#case" class="headerlink" title="case"></a>case</h6><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">case</span> <span class="string">&quot;<span class="variable">$&#123;opt&#125;</span>&quot;</span> <span class="keyword">in</span></span><br><span class="line"><span class="string">&quot;Install-Puppet-Server&quot;</span> )</span><br><span class="line">install_master <span class="variable">$1</span></span><br><span class="line"><span class="built_in">exit</span></span><br><span class="line">;;</span><br><span class="line"></span><br><span class="line"><span class="string">&quot;Install-Puppet-Client&quot;</span> )</span><br><span class="line">install_client <span class="variable">$1</span></span><br><span class="line"><span class="built_in">exit</span></span><br><span class="line">;;</span><br><span class="line"></span><br><span class="line"><span class="string">&quot;Config-Puppet-Server&quot;</span> )</span><br><span class="line">config_puppet_master</span><br><span class="line"><span class="built_in">exit</span></span><br><span class="line">;;</span><br><span class="line"></span><br><span class="line"><span class="string">&quot;Config-Puppet-Client&quot;</span> )</span><br><span class="line">config_puppet_client</span><br><span class="line"><span class="built_in">exit</span></span><br><span class="line">;;</span><br><span class="line"></span><br><span class="line"><span class="string">&quot;Exit&quot;</span> )</span><br><span class="line"><span class="built_in">exit</span></span><br><span class="line">;;</span><br><span class="line"></span><br><span class="line">* ) <span class="built_in">echo</span> <span class="string">&quot;Bad option, please choose again&quot;</span></span><br><span class="line"><span class="keyword">esac</span></span><br></pre></td></tr></table></figure>
+
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://example.com/2022/08/22/mood-signature/" data-id="cl74ub12j00011851dzkw16cg" data-title="mood signature" class="article-share-link">Share</a>
+      
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+
+  
+    <article id="post-hello-world" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2022/08/22/hello-world/" class="article-date">
+  <time class="dt-published" datetime="2022-08-22T13:28:20.630Z" itemprop="datePublished">2022-08-22</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="p-name article-title" href="/2022/08/22/hello-world/">Hello World</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://example.com/2022/08/22/hello-world/" data-id="cl74ub12e00001851dkyg0zk8" data-title="Hello World" class="article-share-link">Share</a>
+      
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+
+  
+
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+
+  
+    
+
+  
+    
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2022/08/">August 2022</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2022/08/22/mood-signature/">mood signature</a>
+          </li>
+        
+          <li>
+            <a href="/2022/08/22/hello-world/">Hello World</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      
+      &copy; 2022 John Doe<br>
+      Powered by <a href="https://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+
+<script src="/js/jquery-3.4.1.min.js"></script>
+
+
+
+  
+<script src="/fancybox/jquery.fancybox.min.js"></script>
+
+
+
+
+<script src="/js/script.js"></script>
+
+
+
+
+
+  </div>
+</body>
+</html>
